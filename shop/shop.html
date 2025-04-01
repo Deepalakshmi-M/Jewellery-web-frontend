@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="shop.css">
+</head>
+<body>
+
+
+    <header>
+        <div class="logo">Lillian Jewelers</div>
+        <nav>
+          <a href="#" class="active">Home</a>
+          <a href="#">Category</a>
+          <a href="shop/shop.html">Collections</a>
+          <a href="shop/shop.html">Shop</a>
+          <a href="gift_page/gift.html">Offers</a>
+          <a href="./gift_page/gift.html">Gift Store</a>
+        </nav>
+        <div class="icons">
+         
+          <a href="wishlist_page/wish.html">❤️</a>
+          <a href="Account/acc.html">👤</a>
+          <a href="#">🛒</a>
+        </div>
+      </header>
+    
+
+
+
+
+  
+  <div class="wishlist-dropdown" id="wishlist-dropdown">
+    <h3>Your Wishlist (<span id="wishlist-count">4</span>)</h3>
+    <ul>
+      <li>
+        <img src=".//img/j11.png" alt="Bracelet" />
+        <div>
+          <p>European Zircon Limited Edition</p>
+          <span>$1099 <del>$1199</del> ($100 Off)</span>
+        </div>
+        <button>Move to Bag</button>
+      </li>
+      <li>
+        <img src=".//img/j12.png" alt="Earrings" />
+        <div>
+          <p>Golden Hour - 14K Yellow Gold</p>
+          <span>$1849 <del>$1899</del> ($50 Off)</span>
+        </div>
+        <button>View Bag</button>
+      </li>
+      <li>
+        <img src=".//img/j17.png" alt="Neckwear" />
+        <div>
+          <p>Dazzling Delights Lillian</p>
+          <span>$4999 <del>$5199</del> ($200 Off)</span>
+        </div>
+        <button>Move to Bag</button>
+      </li>
+    </ul>
+    <button class="view-wishlist-btn">View Wishlist</button>
+  </div>
+
+
+
+  <section class="bracelet-section">
+        <div class="content">
+            <h1 style="font-size: 4rem;">Designer Bracelet Collection</h1>
+            <p>
+                Our latest collection of designer bracelets, where artistry meets elegance. Each bracelet is a testament to exquisite craftsmanship, featuring unique designs that elevate any look. From bold statement pieces to delicate charms, our collection caters to every style and occasion.
+            </p>
+            <a href="#" class="shop-now">Shop Now →</a>
+        </div>
+        <div class="image">
+            <img src=".//img/shop.png" alt="Designer Bracelet" />
+        </div>
+    </section>
+
+
+
+
+
+
+
+    
+    <div class="sort-section">
+        
+        <div class="filter-options">
+            
+            <button class="sort-btn" onclick="toggleDropdown1()">Sort by:   > > > ></button>
+            <div class="drop" id="drop">
+                <div class="drop-item">New Arrivals</div>
+                <div class="drop-item">Trending Now</div>
+                <div class="drop-item">Bestseller</div>
+                <div class="drop-item">Rating - Highest</div>
+                <div class="drop-item">Rating - Lowest</div>
+                <div class="drop-item">Price Low to High</div>
+                <div class="drop-item">Price High to Low</div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+<div class="product-grid">
+    <div class="product-card">
+        <a href="./product_detil/pt.html"><img src=".//img/j3.png" alt="Product 2" /></a>
+        <h3>Product Name</h3>
+        <p class="price">$1099 <span class="discount">$1000 OFF</span></p>
+        <p class="rating">⭐⭐⭐⭐⭐ (120) ❤️</p>
+    </div>
+
+    <div class="product-card">
+        <a href="./product_detil/pt.html"><img src=".//img/j2.png" alt="Product 2" /></a>
+        <h3>Gold Ring</h3>
+        <p class="price">$1249 <span class="discount">$100 OFF</span></p>
+        <p class="rating">⭐⭐⭐⭐ (98)🤍</p>
+    </div>
+
+    <div class="product-card">
+        <a href="./product_detil/pt.html"><img src=".//img/j4.png" alt="Product 2" /></a>
+        <h3>Diamond Earrings</h3>
+        <p class="price">$2499 <span class="discount">$200 OFF</span></p>
+        <p class="rating">⭐⭐⭐⭐⭐ (85)🤍</p>
+    </div>   <div class="product-card">
+        <a href="./product_detil/pt.html"><img src=".//img/j5.png" alt="Product 2" /></a>
+        <h3>Diamond Earrings</h3>
+        <p class="price">$2499 <span class="discount">$200 OFF</span></p>
+        <p class="rating">⭐⭐⭐⭐⭐ (85)🤍</p>
+    </div>
+
+</div>
+
+<div class="product-grid">
+    <div class="product-card">
+        <a href="./product_detil/pt.html"><img src=".//img/j6.png" alt="Product 2" /></a>
+        <h3>Product Name</h3>
+        <p class="price">$1099 <span class="discount">$1000 OFF</span></p>
+        <p class="rating">⭐⭐⭐⭐⭐ (120)🤍</p>
+    </div>
+
+    <div class="product-card">
+        <a href="./product_detil/pt.html"><img src=".//img/j7.png" alt="Product 2" /></a>
+        <h3>Gold Ring</h3>
+        <p class="price">$1249 <span class="discount">$100 OFF</span></p>
+        <p class="rating">⭐⭐⭐⭐ (98)❤️</p>
+    </div>
+
+    <div class="product-card">
+        <a href="./product_detil/pt.html"><img src=".//img/j8.png" alt="Product 2" /></a>
+        <h3>Diamond Earrings</h3>
+        <p class="price">$2499 <span class="discount">$200 OFF</span></p>
+        <p class="rating">⭐⭐⭐⭐⭐ (85)🤍</p>
+    </div>   <div class="product-card">
+        <a href="./product_detil/pt.html"><img src=".//img/j9.png" alt="Product 2" /></a>
+        <h3>Diamond Earrings</h3>
+        <p class="price">$2499 <span class="discount">$200 OFF</span></p>
+        <p class="rating">⭐⭐⭐⭐⭐ (85)🤍</p>
+    </div>
+
+</div>
+
+
+<div class="product-grid">
+    <div class="product-card">
+        <a href="./product_detil/pt.html"><img src=".//img/j11.png" alt="Product 2" /></a>
+        <h3>Product Name</h3>
+        <p class="price">$1099 <span class="discount">$1000 OFF</span></p>
+        <p class="rating">⭐⭐⭐⭐⭐ (120)🤍</p>
+    </div>
+
+    <div class="product-card">
+        <a href="./product_detil/pt.html"><img src=".//img/j12.png" alt="Product 2" /></a>
+        <h3>Gold Ring</h3>
+        <p class="price">$1249 <span class="discount">$100 OFF</span></p>
+        <p class="rating">⭐⭐⭐⭐ (98)🤍</p>
+    </div>
+
+    <div class="product-card">
+        <a href="./product_detil/pt.html"><img src=".//img/j13.png" alt="Product 2" /></a>
+        <h3>Diamond Earrings</h3>
+        <p class="price">$2499 <span class="discount">$200 OFF</span></p>
+        <p class="rating">⭐⭐⭐⭐⭐ (85)🤍</p>
+    </div>   <div class="product-card">
+        <a href="./product_detil/pt.html"><img src=".//img/j14.png" alt="Product 2" /></a>
+        <h3>Diamond Earrings</h3>
+        <p class="price">$2499 <span class="discount">$200 OFF</span></p>
+        <p class="rating">⭐⭐⭐⭐⭐ (85)❤️🤍</p>
+    </div>
+
+</div>
+
+<div class="product-grid">
+    <div class="product-card">
+        <a href="./product_detil/pt.html"><img src=".//img/j15.png" alt="Product 2" /></a>
+        <h3>Product Name</h3>
+        <p class="price">$1099 <span class="discount">$1000 OFF</span></p>
+        <p class="rating">⭐⭐⭐⭐⭐ (120)🤍</p>
+    </div>
+
+    <div class="product-card">
+        <a href="./product_detil/pt.html"><img src=".//img/j16.png" alt="Product 2" /></a>
+        <h3>Gold Ring</h3>
+        <p class="price">$1249 <span class="discount">$100 OFF</span></p>
+        <p class="rating">⭐⭐⭐⭐ (98)🤍</p>
+    </div>
+
+    <div class="product-card">
+        <a href="./product_detil/pt.html"><img src=".//img/j17.png" alt="Product 2" /></a>
+        <h3>Diamond Earrings</h3>
+        <p class="price">$2499 <span class="discount">$200 OFF</span></p>
+        <p class="rating">⭐⭐⭐⭐⭐ (85)🤍</p>
+    </div>   <div class="product-card">
+        <a href="./product_detil/pt.html"><img src=".//img/j18.png" alt="Product 2" /></a>
+        <h3>Diamond Earrings</h3>
+        <p class="price">$2499 <span class="discount">$200 OFF</span></p>
+        <p class="rating">⭐⭐⭐⭐⭐ (85)🤍</p>
+    </div>
+
+</div>
+
+<div class="product-grid">
+    <div class="product-card">
+        <a href="./product_detil/pt.html"><img src=".//img/j19.png" alt="Product 2" /></a>
+        <h3>Product Name</h3>
+        <p class="price">$1099 <span class="discount">$1000 OFF</span></p>
+        <p class="rating">⭐⭐⭐⭐⭐ (120)</p>
+    </div>
+
+    <div class="product-card">
+        <a href="./product_detil/pt.html"><img src=".//img/j21.png" alt="Product 2" /></a>
+        <h3>Gold Ring</h3>
+        <p class="price">$1249 <span class="discount">$100 OFF</span></p>
+        <p class="rating">⭐⭐⭐⭐ (98)</p>
+    </div>
+
+    <div class="product-card">
+        <a href="./product_detil/pt.html"><img src=".//img/j22.png" alt="Product 2" /></a>
+        <h3>Diamond Earrings</h3>
+        <p class="price">$2499 <span class="discount">$200 OFF</span></p>
+        <p class="rating">⭐⭐⭐⭐⭐ (85)</p>
+    </div>   <div class="product-card">
+        <a href="./product_detil/pt.html"><img src=".//img/j2.png" alt="Product 2" /></a>
+        <h3>Diamond Earrings</h3>
+        <p class="price">$2499 <span class="discount">$200 OFF</span></p>
+        <p class="rating">⭐⭐⭐⭐⭐ (85)</p>
+    </div>
+
+</div>
+<div class="collection-section">
+    <h1>WINTER GEMSTONE COLLECTION</h1>
+    <div class="collection-container">
+        <div class="collection-item">
+            <img src=".//img/j23.png" alt="Gemstone 1" />
+        </div>
+        <div class="collection-item">
+            <img src=".//img/j24.png" alt="Gemstone 2" />
+        </div>
+        <div class="collection-item">
+            <img src=".//img/j25.png" alt="Gemstone 3" />
+        </div>
+    </div>
+    <p class="collection-desc">
+        Illuminate Your Style with Lillian Jewelers' Dazzling Gemstone Collection, 
+        designed to celebrate the beauty and individuality of every wearer. Each piece 
+        showcases vibrant, ethically sourced gemstones that add a splash of color and 
+        elegance to any outfit. Discover unique designs that reflect your personal 
+        style and let your inner sparkle shine.
+    </p>
+</div>
+
+</body>
+</html>
+
+
+ 
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>Company</h3>
+                <ul>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Our Story</a></li>
+                    <li><a href="#">Our Stores</a></li>
+                    <li><a href="#">Franchise Enquiry</a></li>
+                </ul>
+            </div>
+      
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#">Category</a></li>
+                    <li><a href="#">Collection</a></li>
+                    <li><a href="#">Offers</a></li>
+                    <li><a href="#">Corporate Gifting</a></li>
+                    <li><a href="#">Jewelry Guide</a></li>
+                </ul>
+            </div>
+      
+            <div class="footer-section">
+                <h3>Legal</h3>
+                <ul>
+                    <li><a href="#">Terms & Conditions</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">FAQs</a></li>
+                    <li><a href="#">Customer Support</a></li>
+                    <li><a href="#">Our Certifications</a></li>
+                </ul>
+            </div>
+      
+            <div class="footer-section">
+                <h3>Order</h3>
+                <ul>
+                    <li><a href="#">Shipping Policy</a></li>
+                    <li><a href="#">Return Policy</a></li>
+                    <li><a href="#">Cancellation Policy</a></li>
+                    <li><a href="#">Track Order</a></li>
+                    <li><a href="#">Check Order Status</a></li>
+                </ul>
+            </div>
+      
+            <div class="footer-section">
+                <h3>Contact</h3>
+                <p><strong>Lillian Jewelers Pvt. Ltd.</strong><br>
+                    56 W, Broadway Street, Park Avenue,<br>
+                    San Jose, California - 056<br>
+                    +1 (226) 152-4722<br>
+                    +315 652 415 452<br>
+                    <a href="mailto:info@lillianjewelers.com">info@lillianjewelers.com</a>
+                </p>
+            </div>
+        </div>
+      
+        <div class="subscription">
+            <h3>Subscribe for our daily Offers & News Later</h3>
+            <div class="subscribe-box">
+                <input type="email" placeholder="Enter your email...">
+                <button type="submit">Subscribe</button>
+            </div>
+        </div>
+      
+        <div class="payment-options">
+            <h3>We accept the following payment options</h3>
+            <div class="payment-icons">
+                <img src=".//img/im1.png" alt="Visa">
+                <img src=".//img/im2.png" alt="Mastercard">
+                <img src=".//img/im3.png" alt="American Express">
+                <img src=".//img/im4.png" alt="Discover">
+                <img src=".//img/im5.png" alt="Paypal">
+                <img src=".//img/im6.png" alt="Apple Pay">
+                <img src=".//img/im7.png" alt="Google Pay">
+                <img src=".//img/im8.png" alt="Amazon Pay">
+            </div>
+        </div>
+      
+        <div class="footer-bottom">
+            <p>© Lillian Jewelers 2024</p>
+            <div class="social-icons">
+                <a href="#"><img src=".//img/lo1.png" alt="Facebook"></a>
+                <a href="#"><img src=".//img/lo2.png"Instagram"></a>
+                <a href="#"><img src=".//img/lo3.png"Twitter"></a>
+                <a href="#"><img src=".//img/lo4.png" alt="Pinterest"></a>
+                <a href="#"><img src=".//img/lo5.png" alt="YouTube"></a>
+            </div>
+        </div>
+      </footer>
+      
+
+
+
+
+
+
+
+
+
+
+
+      <script>
+function toggleDropdown1() {
+    const dropdown = document.getElementById("drop");
+    dropdown.style.display = dropdown.style.display === "block" ? "none" : "block";
+}
+
+window.onclick = function(event) {
+    if (!event.target.matches('.sort-btn')) {
+        const dropdown = document.getElementById("drop");
+        if (dropdown.style.display === "block") {
+            dropdown.style.display = "none";
+        }
+    }
+}
+
+
+
+
+
+
+function toggleDropdown() {
+  const dropdown = document.getElementById('wishlist-dropdown');
+  dropdown.style.display =
+    dropdown.style.display === 'block' ? 'none' : 'block';
+}
+
+window.onclick = function(event) {
+  if (!event.target.matches('.heart-icon')) {
+    const dropdown = document.getElementById('wishlist-dropdown');
+    if (dropdown.style.display === 'block') {
+      dropdown.style.display = 'none';
+    }
+  }
+};
+      </script>
+</body>
+</html>
