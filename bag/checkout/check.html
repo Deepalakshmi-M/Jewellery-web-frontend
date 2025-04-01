@@ -1,0 +1,251 @@
+!<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="check.css" />
+    <title>Checkout</title>
+</head>
+<body>
+
+
+    <header>
+        <div class="logo">Lillian Jewelers</div>
+        <nav>
+          <a href="#" class="active">Home</a>
+          <a href="#">Category</a>
+          <a href="shop/shop.html">Collections</a>
+          <a href="shop/shop.html">Shop</a>
+          <a href="gift_page/gift.html">Offers</a>
+          <a href="./gift_page/gift.html">Gift Store</a>
+        </nav>
+        <div class="icons">
+         
+          <a href="wishlist_page/wish.html">❤️</a>
+          <a href="Account/acc.html">👤</a>
+          <a href="#">🛒</a>
+        </div>
+      </header>
+    
+
+    <div class="container">
+        <div class="checkout-section">
+            <h1 class="title">Checkout</h1>
+
+            <div class="express-checkout">
+                <button class="payment-btn apple-pay"> Pay</button>
+                <button class="payment-btn paypal">PayPal</button>
+            </div>
+
+            <div class="divider">OR</div>
+
+            <div class="delivery-details">
+                <div class="tab">
+                    <button class="tab-btn active">🚚 Ship</button>
+                    <button class="tab-btn">🏬 Pickup at Store</button>
+                </div>
+
+                <form>
+                    <select name="country" required>
+                        <option value="" disabled selected>Country/Region</option>
+                        <option value="US">United States</option>
+                        <option value="IN">India</option>
+                        <option value="CA">Canada</option>
+                    </select>
+                    <div class="name-fields">
+                        <input type="text" placeholder="First Name" required />
+                        <input type="text" placeholder="Last Name" required />
+                    </div>
+                    <input type="text" placeholder="Address Line 1" required />
+                    <input type="text" placeholder="Address Line 2" />
+                    <div class="location-fields">
+                        <input type="text" placeholder="City" required />
+                        <select required>
+                            <option value="" disabled selected>State</option>
+                            <option value="CA">California</option>
+                            <option value="NY">New York</option>
+                        </select>
+                        <input type="text" placeholder="Zip Code" required />
+                    </div>
+                    <div class="contact-fields">
+                        <input type="email" placeholder="Email" required />
+                        <input type="text" placeholder="Phone" required />
+                    </div>
+
+                    <div class="checkbox-group">
+                        <input type="checkbox" id="billing" checked />
+                        <label for="billing">Use this address for billing</label>
+                        <br />
+                        <input type="checkbox" id="updates" />
+                        <label for="updates">Send me updates on Email and Phone</label>
+                    </div>
+                </form>
+            </div>
+
+            <div class="shipping-options">
+                <label>
+                    <input type="radio" name="shipping" checked />
+                    Delivery by Wed, November 5 – Free
+                </label>
+                <label>
+                    <input type="radio" name="shipping" />
+                    Delivery by Sun, November 2 – $40
+                </label>
+            </div>
+
+            <a href="..//checkout/payment/pay.html"><button class="proceed-btn" onclick="proceedToPayment()">Proceed to Payment</button></a>
+        </div>
+
+        <div class="order-summary">
+            <h2>Order Summary</h2>
+            <div class="product">
+                <img src=".//img/j11.png" alt="Product Image" />
+                <div class="product-info">
+                    <p>Rosy Refresh - Set of 2 18K Rose & White Gold Earrings</p>
+                    <p>Size: 15</p>
+                    <p>Qty: 1</p>
+                    <p class="price">$2599</p>
+                </div>
+            </div>
+            <div class="product">
+                <img src=".//img/j11.png" alt="Product Image" />
+                <div class="product-info">
+                    <p>Golden Hour - 14K Yellow Gold Designer Earrings</p>
+                    <p>Size: 14</p>
+                    <p>Qty: 1</p>
+                    <p class="price">$1849</p>
+                </div>
+            </div>
+
+            <div class="promo-code">
+                <input type="text" placeholder="Enter a Gift Card or Promo Code" />
+                <button class="apply-btn">Apply</button>
+            </div>
+
+            <div class="price-summary">
+                <p>Subtotal <span>$4448</span></p>
+                <p>Shipping (Express) <span>$40</span></p>
+                <p>Sales Tax <span>$45</span></p>
+                <p class="discount">Promo Code <span>– $300</span></p>
+                <hr />
+                <p class="total">Total <span>$4233</span></p>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<footer>
+    <div class="footer-container">
+        <div class="footer-section">
+            <h3>Company</h3>
+            <ul>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Our Story</a></li>
+                <li><a href="#">Our Stores</a></li>
+                <li><a href="#">Franchise Enquiry</a></li>
+            </ul>
+        </div>
+  
+        <div class="footer-section">
+            <h3>Quick Links</h3>
+            <ul>
+                <li><a href="#">Category</a></li>
+                <li><a href="#">Collection</a></li>
+                <li><a href="#">Offers</a></li>
+                <li><a href="#">Corporate Gifting</a></li>
+                <li><a href="#">Jewelry Guide</a></li>
+            </ul>
+        </div>
+  
+        <div class="footer-section">
+            <h3>Legal</h3>
+            <ul>
+                <li><a href="#">Terms & Conditions</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">FAQs</a></li>
+                <li><a href="#">Customer Support</a></li>
+                <li><a href="#">Our Certifications</a></li>
+            </ul>
+        </div>
+  
+        <div class="footer-section">
+            <h3>Order</h3>
+            <ul>
+                <li><a href="#">Shipping Policy</a></li>
+                <li><a href="#">Return Policy</a></li>
+                <li><a href="#">Cancellation Policy</a></li>
+                <li><a href="#">Track Order</a></li>
+                <li><a href="#">Check Order Status</a></li>
+            </ul>
+        </div>
+  
+        <div class="footer-section">
+            <h3>Contact</h3>
+            <p><strong>Lillian Jewelers Pvt. Ltd.</strong><br>
+                56 W, Broadway Street, Park Avenue,<br>
+                San Jose, California - 056<br>
+                +1 (226) 152-4722<br>
+                +315 652 415 452<br>
+                <a href="mailto:info@lillianjewelers.com">info@lillianjewelers.com</a>
+            </p>
+        </div>
+    </div>
+  
+    <div class="subscription">
+        <h3>Subscribe for our daily Offers & News Later</h3>
+        <div class="subscribe-box">
+            <input type="email" placeholder="Enter your email...">
+            <button type="submit">Subscribe</button>
+        </div>
+    </div>
+  
+    <div class="payment-options">
+        <h3>We accept the following payment options</h3>
+        <div class="payment-icons">
+            <img src=".//img/im1.png" alt="Visa">
+            <img src=".//img/im2.png" alt="Mastercard">
+            <img src=".//img/im3.png" alt="American Express">
+            <img src=".//img/im4.png" alt="Discover">
+            <img src=".//img/im5.png" alt="Paypal">
+            <img src=".//img/im6.png" alt="Apple Pay">
+            <img src=".//img/im7.png" alt="Google Pay">
+            <img src=".//img/im8.png" alt="Amazon Pay">
+        </div>
+    </div>
+  
+    <div class="footer-bottom">
+        <p>© Lillian Jewelers 2024</p>
+        <div class="social-icons">
+            <a href="#"><img src=".//img/lo1.png" alt="Facebook"></a>
+            <a href="#"><img src=".//img/lo2.png"Instagram"></a>
+            <a href="#"><img src=".//img/lo3.png"Twitter"></a>
+            <a href="#"><img src=".//img/lo4.png" alt="Pinterest"></a>
+            <a href="#"><img src=".//img/lo5.png" alt="YouTube"></a>
+        </div>
+    </div>
+  </footer>
+  
+  
+  
+    <script>
+        function proceedToPayment() {
+            alert('Redirecting to payment...');
+            window.location.href = 'payment.html';
+        }
+    </script>
+</body>
+</html>

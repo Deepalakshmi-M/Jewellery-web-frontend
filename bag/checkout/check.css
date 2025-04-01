@@ -1,0 +1,345 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  background-color: #181718;
+  
+  border-bottom: 2px solid #e0e0e0;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color:#f3ffb4;
+}
+
+nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #f4f4f4;
+  font-size: 16px;
+  transition: 0.3s ease;
+}
+
+nav a.active,
+nav a:hover {
+  color: #ffffff;
+}
+
+.icons span {
+  margin-left: 15px;
+  cursor: pointer;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 20px;
+}
+
+/* Left Section */
+.checkout-section {
+    width: 50%;
+}
+
+/* Title */
+.title {
+    color: #abba4e;
+}
+
+/* Express Checkout */
+.express-checkout {
+    display: flex;
+    gap: 10px;
+}
+
+.payment-btn {
+    width: 48%;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.apple-pay {
+    background-color: #000;
+    color: #fff;
+}
+
+.paypal {
+    background-color: #9dbe65;
+}
+
+/* Divider */
+.divider {
+    text-align: center;
+    margin: 20px 0;
+}
+
+/* Form Styling */
+form input,
+form select {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.name-fields,
+.location-fields,
+.contact-fields {
+    display: flex;
+    gap: 10px;
+}
+
+/* Shipping Options */
+.shipping-options label {
+    display: block;
+    padding: 8px 0;
+}
+
+/* Proceed to Payment Button */
+.proceed-btn {
+    width: 100%;
+    padding: 14px;
+    background-color: #0c1e31;
+    color: #fff;
+    font-size: 18px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.proceed-btn:hover {
+    background-color: #0056b3;
+}
+
+/* Right Section */
+.order-summary {
+    width: 30%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.product {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.product img {
+    width: 50px;
+    height: 50px;
+    border-radius: 4px;
+}
+
+.product-info {
+    font-size: 14px;
+}
+
+.price {
+    font-weight: bold;
+}
+
+/* Promo Code */
+.promo-code {
+    display: flex;
+    gap: 5px;
+}
+
+.promo-code input {
+    flex: 1;
+}
+
+.apply-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+/* Price Summary */
+.price-summary {
+    font-size: 14px;
+}
+
+.price-summary p {
+    display: flex;
+    justify-content: space-between;
+}
+
+.total {
+    font-weight: bold;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .checkout-section,
+    .order-summary {
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+
+
+  
+/* General Footer Styling */
+footer {
+    background-color: #f9f9f9;
+    padding: 40px 20px;
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  
+  /* Footer Container */
+  .footer-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+  }
+  
+  .footer-section h3 {
+    font-size: 16px;
+    color: #000;
+    margin-bottom: 12px;
+  }
+  
+  .footer-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-section ul li {
+    margin-bottom: 8px;
+  }
+  
+  .footer-section ul li a {
+    color: #555;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+  .footer-section ul li a:hover {
+    color: #1572a1;
+  }
+  
+  /* Contact Styling */
+  .footer-section p {
+    font-size: 14px;
+    color: #555;
+    line-height: 1.5;
+  }
+  
+  .footer-section a {
+    color: #1572a1;
+    text-decoration: none;
+  }
+  
+  /* Subscription Section */
+  .subscription {
+    margin-top: 40px;
+    text-align: center;
+  }
+  
+  .subscription h3 {
+    font-size: 18px;
+    color: #000;
+    margin-bottom: 12px;
+  }
+  
+  .subscribe-box {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .subscribe-box input {
+    padding: 20px;
+    width: 250px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  .subscribe-box button {
+    background-color: #000;
+    color: #fff;
+    padding:  2px;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+    width: 5cm;
+    height: 1.5cm;
+  }
+  
+  .subscribe-box button:hover {
+    background-color: #383c3d;
+  }
+  
+  /* Payment Options */
+  .payment-options {
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .payment-options h3 {
+    font-size: 16px;
+    color: #000;
+    margin-bottom: 12px;
+  }
+  
+  .payment-icons img {
+    height: 40px;
+    margin: 0 10px;
+  }
+  
+  /* Footer Bottom */
+  .footer-bottom {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+  }
+  
+  .footer-bottom p {
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .social-icons a img {
+    height: 50px;
+    margin-left: 12px;
+    transition: transform 0.3s ease;
+  }
+  
+  .social-icons a img:hover {
+    transform: scale(1.2);
+  }
+  

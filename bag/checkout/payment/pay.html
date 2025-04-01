@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="pay.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">Lillian Jewelers</div>
+        <nav>
+          <a href="#" class="active">Home</a>
+          <a href="#">Category</a>
+          <a href="shop/shop.html">Collections</a>
+          <a href="shop/shop.html">Shop</a>
+          <a href="gift_page/gift.html">Offers</a>
+          <a href="./gift_page/gift.html">Gift Store</a>
+        </nav>
+        <div class="icons">
+         
+          <a href="wishlist_page/wish.html">❤️</a>
+          <a href="Account/acc.html">👤</a>
+          <a href="#">🛒</a>
+        </div>
+      </header>
+    
+
+
+
+    <div class="payment-container">
+        <div class="payment-info">
+            <h2>Payment</h2>
+            <div class="shipping-info">
+                <h3>Shipping Information</h3>
+                <p><strong>Email</strong><br> johnmarkwell88@gmail.com</p>
+                <p><strong>Shipping & Billing Address</strong><br>
+                    2019 Kemberly Drive Avenue,<br>
+                    Nr. Joliet Junior College,<br>
+                    Chicago, Illinois (60605)<br>
+                    United States<br>
+                    630-583-6376
+                </p>
+                <p><strong>Express Shipping</strong><br>
+                    2-day: Delivery by 02/11/24
+                </p>
+                <a href="#" class="edit-link">Edit</a>
+            </div>
+    
+            <div class="gift-card-section">
+                <h3>Gift Card (optional)</h3>
+                <div class="gift-card-input">
+                    <input type="text" placeholder="Gift Card Number">
+                    <input type="text" placeholder="PIN">
+                    <button class="apply-btn">Apply</button>
+                </div>
+                <a href="#" class="check-balance">Check Balance</a>
+            </div>
+        </div>
+    
+        <div class="order-summary">
+            <h3>Order Summary</h3>
+            <div class="order-item">
+                <img src="./img/j11.png" alt="Gold Earrings">
+                <div>
+                    <p><strong>Rosy Refresh – Set of 2 18K Rose & White Gold Earrings</strong></p>
+                    <p>Size 15</p>
+                    <p>Qty 1</p>
+                </div>
+                <p class="price">$2599</p>
+            </div>
+            <div class="order-item">
+                <img src="./img/j12.png" alt="Gold Designer Earrings">
+                <div>
+                    <p><strong>Golden Hour – 14K Yellow Gold Designer Earrings</strong></p>
+                    <p>Size 14</p>
+                    <p>Qty 1</p>
+                </div>
+                <p class="price">$1849</p>
+            </div>
+            
+            <div class="promo-code">
+                <input type="text" placeholder="Enter a Gift Card or Promo Code">
+                <button class="apply-btn">Apply</button>
+            </div>
+    
+            <div class="summary-details">
+                <p>Subtotal <span>$4448</span></p>
+                <p>Shipping (Express) <span>$40</span></p>
+                <p>Sales Tax <span>$45</span></p>
+                <p class="discount">Promo Code <span>– $300</span></p>
+                <p class="total">Total <span>$4233</span></p>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+    <div class="payment-section">
+       
+        <div class="payment-options">
+            <h3>Payment Options</h3>
+            <div class="credit-card-option">
+                <div class="card-header">
+                    <input type="radio" name="payment" checked>
+                    <span>Credit Card</span>
+                    <div class="card-icons">
+                        <img src="./img/im1.png" alt="Visa">
+                        <img src="./img/im2.png" alt="MasterCard">
+                        <img src="./img/im3.png" alt="Amex">
+                        <img src="./img/im4.png" alt="Discover">
+                    </div>
+                </div>
+                <div class="card-details">
+                    <input type="text" placeholder="Card Number" class="card-input">
+                    <div class="card-expiration">
+                        <input type="text" placeholder="MM" class="small-input">
+                        <input type="text" placeholder="YY" class="small-input">
+                        <input type="text" placeholder="CVV" class="small-input">
+                    </div>
+                    <input type="text" placeholder="Name on the Card" class="card-input">
+                </div>
+                <div class="billing-address">
+                    <input type="checkbox" checked>
+                    <span>Use shipping address as billing address</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="payment-alternative">
+        <div class="payment-option">
+            <input type="radio" name="payment" id="paypal">
+            <label for="paypal">
+                <img src="./img/m1.png" alt="PayPal">
+                <span>You will be redirected to PayPal to complete your purchase securely.</span>
+            </label>
+        </div>
+    
+        <div class="payment-option">
+            <input type="radio" name="payment" id="apple-pay">
+            <label for="apple-pay">
+                <img src="./img/m2.png" alt="Apple Pay">
+                <span>You will be redirected to Apple Pay to complete your purchase securely.</span>
+            </label>
+        </div>
+    
+        <div class="payment-option">
+            <input type="radio" name="payment" id="google-pay">
+            <label for="google-pay">
+                <img src="./img/m3.png" alt="Google Pay">
+                <input type="text" placeholder="Enter G-Pay ID">
+                <button class="proceed-btn">Proceed</button>
+            </label>
+        </div>
+    
+        <div class="payment-option">
+            <input type="radio" name="payment" id="amazon-pay">
+            <label for="amazon-pay">
+                <img src="./img/m4.png" alt="Amazon Pay">
+                <span>You will be redirected to Amazon Pay to complete your purchase securely.</span>
+            </label>
+        </div>
+    
+        <div class="payment-option">
+            <input type="radio" name="payment" id="finance">
+            <label for="finance">
+                <img src="./img/m5.png" alt="Amazon Pay">
+
+                <span class="finance-logo">LILLIAN FINANCE</span>
+                <span>Click below to select a financing plan and complete your purchase securely.</span>
+                <button class="view-plans-btn">View Plans</button>
+            </label>
+        </div>
+    </div>
+    
+
+    <div class="secure-payment">
+        <span class="lock-icon">🔒</span> Secure and Encrypted.
+    </div>
+    
+    <button class="pay-now-btn">Pay Now</button>
+    
+    <p class="terms-text">
+        By placing your order you agree to our 
+        <a href="#">Terms and Conditions</a>, 
+        <a href="#">Privacy Policy</a>, and 
+        <a href="#">Returns Policy</a>.
+    </p>
+    
+
+
+
+      
+<footer>
+    <div class="footer-container">
+        <!-- Company Section -->
+        <div class="footer-section">
+            <h3>Company</h3>
+            <ul>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Our Story</a></li>
+                <li><a href="#">Our Stores</a></li>
+                <li><a href="#">Franchise Enquiry</a></li>
+            </ul>
+        </div>
+  
+        <!-- Quick Links Section -->
+        <div class="footer-section">
+            <h3>Quick Links</h3>
+            <ul>
+                <li><a href="#">Category</a></li>
+                <li><a href="#">Collection</a></li>
+                <li><a href="#">Offers</a></li>
+                <li><a href="#">Corporate Gifting</a></li>
+                <li><a href="#">Jewelry Guide</a></li>
+            </ul>
+        </div>
+  
+        <!-- Legal Section -->
+        <div class="footer-section">
+            <h3>Legal</h3>
+            <ul>
+                <li><a href="#">Terms & Conditions</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">FAQs</a></li>
+                <li><a href="#">Customer Support</a></li>
+                <li><a href="#">Our Certifications</a></li>
+            </ul>
+        </div>
+  
+        <!-- Order Section -->
+        <div class="footer-section">
+            <h3>Order</h3>
+            <ul>
+                <li><a href="#">Shipping Policy</a></li>
+                <li><a href="#">Return Policy</a></li>
+                <li><a href="#">Cancellation Policy</a></li>
+                <li><a href="#">Track Order</a></li>
+                <li><a href="#">Check Order Status</a></li>
+            </ul>
+        </div>
+  
+        <!-- Contact Section -->
+        <div class="footer-section">
+            <h3>Contact</h3>
+            <p><strong>Lillian Jewelers Pvt. Ltd.</strong><br>
+                56 W, Broadway Street, Park Avenue,<br>
+                San Jose, California - 056<br>
+                +1 (226) 152-4722<br>
+                +315 652 415 452<br>
+                <a href="mailto:info@lillianjewelers.com">info@lillianjewelers.com</a>
+            </p>
+        </div>
+    </div>
+  
+    <!-- Subscription Section -->
+    <div class="subscription">
+        <h3>Subscribe for our daily Offers & News Later</h3>
+        <div class="subscribe-box">
+            <input type="email" placeholder="Enter your email...">
+            <button type="submit">Subscribe</button>
+        </div>
+    </div>
+  
+    <!-- Payment Options Section -->
+    <div class="payment-options">
+        <h3>We accept the following payment options</h3>
+        <div class="payment-icons">
+            <img src=".//img/im1.png" alt="Visa">
+            <img src=".//img/im2.png" alt="Mastercard">
+            <img src=".//img/im3.png" alt="American Express">
+            <img src=".//img/im4.png" alt="Discover">
+            <img src=".//img/im5.png" alt="Paypal">
+            <img src=".//img/im6.png" alt="Apple Pay">
+            <img src=".//img/im7.png" alt="Google Pay">
+            <img src=".//img/im8.png" alt="Amazon Pay">
+        </div>
+    </div>
+  
+    <!-- Copyright & Social Media -->
+    <div class="footer-bottom">
+        <p>© Lillian Jewelers 2024</p>
+        <div class="social-icons">
+            <a href="#"><img src=".//img/lo1.png" alt="Facebook"></a>
+            <a href="#"><img src=".//img/lo2.png"Instagram"></a>
+            <a href="#"><img src=".//img/lo3.png"Twitter"></a>
+            <a href="#"><img src=".//img/lo4.png" alt="Pinterest"></a>
+            <a href="#"><img src=".//img/lo5.png" alt="YouTube"></a>
+        </div>
+    </div>
+  </footer>
+  
+  
+  
+
+    
+    
+</body>
+</html>
